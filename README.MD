@@ -1,28 +1,27 @@
-# _Show Store _
+# _DrsOfficeAPI _
 
-#### _Friday Project, 05/12/17_
+#### _Friday Project, 05/26/17_
 
 #### By _** Jason Lazzuri**_
 
 ## Specifications
 
-* This app will let you create Shoe stores, update or delete those Stores, add Shoe Brands to the Shoe Stores and update or delete the names of both.
-
-* First you can look at all the brands or the stores.
-
-* Either link will take you to the point where you can look at all the stores or brands. Then you can add brands and stores. As well as add brands to whatever store you want.
+* This app is a test project for figuring out API's. It will search the Burien area for Dr's/Clinics who specialize in a number of issues. It will then return 10 results with their phone numbers, names and their bio.
 
 ## Setup/Installation Requirements
 
 * _Must have Postgres installed. Run the instructions below._
 
-The repository for this project can be accessed at https://github.com/JasonLazzuri/ShoeStoreFriday
+The repository for this project can be accessed at https://github.com/JasonLazzuri/DrsOfficeAPI.git
 
-* _Using Terminal, run the command 'git clone https://github.com/JasonLazzuri/ShoeStoreFriday' in the desktop directory_
-* _now run the command 'cd ShoeStoreFriday' to change into that directory/folder_
-* _Open all files using atom by typing the command 'atom .'_
-* _Now in Terminal type 'ruby app.rb' to broadcast the website using Sinatra_
-* _Now, type localhost:4567 into your browser to see the page._
+* _Using Terminal, run the command 'git clone https://github.com/JasonLazzuri/DrsOfficeAPI.git' in the desktop directory_
+* _now run the command 'cd DrsOfficeAPI' to change into that directory/folder_
+
+* _Now in Terminal type 'npm install'. When that completes type 'npm init'._
+
+* _Do the same thing with Bower and type 'bower install'. When that completes type 'bower init'._
+
+* _Now, type 'gulp serve' and watch it run in your browser at 'localhost:3000'._
 
 ## Support and contact details
 
@@ -32,7 +31,8 @@ _Please contact Jason Lazzuri through email at Jason.Lazzuri@gmail.com_
 
 
 _HTML_
-_SCSS_
+_CSS_
+_Bootstrap_
 _JavaScript_
 _Jquery_
 _Node.js_
