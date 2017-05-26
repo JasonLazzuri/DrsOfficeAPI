@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Doctors Office Check!</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="location-button">
+        <h1>Feeling Sick? Check for a Dr in Your Area</h1>
+        <label for="location">Enter a Location:</label>
+        <input id="location" type="text">
+        <select id="issue">
+          <option>Dentist</option>
+          <option>Feet</option>
+          <option>OBGYN</option>
+          <option>Back</option>
+          <option>Diabetes</option>
+        </select>
+        <button class="btn-success" type="submit">Check out the Dr's in Burien!</button>
+      </form>
+    </div>
+    <div id="style">
+      <div class="showStolenLocation"></div>
+      <div class="showStolenMaker"></div>
+    </div>
+  </body>
+</html>
