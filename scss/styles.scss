@@ -1,0 +1,17 @@
+$gray : #d3d3d3;
+
+#style {
+  background: $gray;
+  border: 3px solid black;
+  padding: 40px;
+  margin: 120px;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+#bootstrap-overrides{
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  color: white;
+}
