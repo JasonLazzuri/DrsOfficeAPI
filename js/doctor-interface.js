@@ -11,8 +11,12 @@ var phoneNumber = function(phone){
 
 };
 
-var doctorList = function(names, phoneNumber, doctorList){
-  $('.showDoctors').append("<li>" + names + "</li>" + "<li>" + phoneNumber + "</li>" + '<br>' + '<br>');
+var biography = function(bio){
+
+};
+
+var doctorList = function(names, phoneNumber, biography, doctorList){
+  $('.showDoctors').append("<li>" + names + "</li>" + "<li>" + phoneNumber + "</li>" + "<li>" + biography + "</li>" + '<br>' + '<br>');
 };
 
 
@@ -21,6 +25,6 @@ $(document).ready(function() {
   $('#issue-button').submit(function() {
     event.preventDefault();
     var issue = $('#issue').val();
-    drObject.getDoctor(issue, fullName, phoneNumber, doctorList);
+    drObject.getDoctor(issue, fullName, phoneNumber, doctorList,biography);
   });
 });
